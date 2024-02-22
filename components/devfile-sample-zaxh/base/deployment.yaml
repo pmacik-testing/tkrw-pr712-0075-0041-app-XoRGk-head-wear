@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-zaxh
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0041-tenant/tkrw-pr712-0075-0041-app/devfile-sample-zaxh@sha256:a8ca7d260011a588f8d149505cee8b7bdf74e373ce18e219ba3b362c0525ef1d
         name: my-nodejs
         ports:
         - containerPort: 3001
